@@ -17,9 +17,9 @@ How to run:
 
 1. copy kernel32.dll to /usr/dlls/
 
-2. #insmod ./winux.ko
+2. insmod ./winux.ko
 
-3. #./test.exe
+3. ./test.exe
 
 Author: Qi (from U of Minnesota)
 Email: cotaku39 at gmail
