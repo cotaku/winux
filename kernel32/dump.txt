@@ -1,0 +1,144 @@
+Microsoft (R) COFF Binary File Dumper Version 5.12.8078
+Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+
+
+Dump of file kernel32.dll
+
+PE signature found
+
+File Type: DLL
+
+FILE HEADER VALUES
+             14C machine (i386)
+               3 number of sections
+        4C727FA9 time date stamp Mon Aug 23 22:03:21 2010
+               0 file pointer to symbol table
+               0 number of symbols
+              E0 size of optional header
+            210E characteristics
+                   Executable
+                   Line numbers stripped
+                   Symbols stripped
+                   32 bit word machine
+                   DLL
+
+OPTIONAL HEADER VALUES
+             10B magic #
+            5.12 linker version
+             200 size of code
+             400 size of initialized data
+               0 size of uninitialized data
+            1000 RVA of entry point
+            1000 base of code
+            2000 base of data
+        10000000 image base
+            1000 section alignment
+             200 file alignment
+            4.00 operating system version
+            0.00 image version
+            4.00 subsystem version
+               0 Win32 version
+            4000 size of image
+             400 size of headers
+               0 checksum
+               2 subsystem (Windows GUI)
+               0 DLL characteristics
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+            2000 [      4B] RVA [size] of Export Directory
+               0 [       0] RVA [size] of Import Directory
+               0 [       0] RVA [size] of Resource Directory
+               0 [       0] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+            3000 [       8] RVA [size] of Base Relocation Directory
+               0 [       0] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Special Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+               0 [       0] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+               0 [       0] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of Reserved Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+   .text name
+      13 virtual size
+    1000 virtual address
+     200 size of raw data
+     400 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60000020 flags
+         Code
+         Execute Read
+
+RAW DATA #1
+  10001000: B8 01 00 00 00 C3 55 8B EC 8B 5D 08 B8 01 00 00  ......U...].....
+  10001010: 00 CD 80                                         ...
+
+SECTION HEADER #2
+  .rdata name
+      4B virtual size
+    2000 virtual address
+     200 size of raw data
+     600 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+RAW DATA #2
+  10002000: 00 00 00 00 A9 7F 72 4C 00 00 00 00 32 20 00 00  ......rL....2 ..
+  10002010: 01 00 00 00 01 00 00 00 01 00 00 00 28 20 00 00  ............( ..
+  10002020: 2C 20 00 00 30 20 00 00 06 10 00 00 3F 20 00 00  , ..0 ......? ..
+  10002030: 00 00 6B 65 72 6E 65 6C 33 32 2E 64 6C 6C 00 45  ..kernel32.dll.E
+  10002040: 78 69 74 50 72 6F 63 65 73 73 00                 xitProcess.
+
+  Section contains the following exports for kernel32.dll
+
+           0 characteristics
+    4C727FA9 time date stamp Mon Aug 23 22:03:21 2010
+        0.00 version
+           1 ordinal base
+           1 number of functions
+           1 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001006 ExitProcess
+
+SECTION HEADER #3
+  .reloc name
+       C virtual size
+    3000 virtual address
+     200 size of raw data
+     800 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42000040 flags
+         Initialized Data
+         Discardable
+         Read Only
+
+RAW DATA #3
+  10003000: 00 00 00 00 08 00 00 00 00 00 00 00              ............
+
+BASE RELOCATIONS #3
+       0 RVA,        8 SizeOfBlock
+
+Dump of file d:\masm32\lib\
+LINK : fatal error LNK1181: cannot open input file "d:\masm32\lib\"
