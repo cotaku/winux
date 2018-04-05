@@ -3,7 +3,7 @@ winux
 
 This is a Linux kernel module that can be dynamically loaded into Linux kernel to support executing Win32 exe files directly.
 
-Demos and compiled files here: http://www-users.cs.umn.edu/~zqi/projects/winux
+Blog containing demo here (in Chinese): http://blog.atelier39.org/linux_driver/1077.html
 
 How to build:
 
