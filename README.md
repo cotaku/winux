@@ -20,6 +20,3 @@ How to run:
 2. insmod ./winux.ko
 
 3. ./test.exe
-
-Author: Qi (from U of Minnesota)
-Email: cotaku39 at gmail
